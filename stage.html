@@ -12,8 +12,8 @@
 <article>
 	<h1>Aanmelden</h1>
 	<p>Bent u geinteresseerd in samenwerken met CMD Amsterdam? Dat kan!
-		Tijdens de opleiding werken studenten aan projecten voor echte opdrachtgevers. Ook
-		lopen de studenten stage, in het tweede en afstudeerjaar.</p>
+	Tijdens de opleiding werken studenten aan projecten voor echte opdrachtgevers. Ook
+	lopen de studenten stage, in het tweede en afstudeerjaar.</p>
 	<p><i>CMD Amsterdam zoekt altijd naar positieve verbindingen met de creatieve stad Amsterdam.</i></p>
 	<p>Voor het aanmelden van stageplekken of projecten kunt u onderstaand formulier invullen.
 	Wij nemen zo nodig contact met u op nadat het formulier is verstuurd.
@@ -21,36 +21,36 @@
 		<form>
 			<fieldset>
 				<legend>Contactgegevens</legend>
-					Naam: <input type="text" id="naam" name="naam"><br>
-					Bedrijf: <input type="text" id="bedrijf" name="bedrijf"><br>
-					Straatnaam: <input type="text" id="straat" name="straatnaam"><br>
-					Nummer: <input type="text" id="huisnummer" name="Nummer"><br>
-					Postcode: <input type="text" id="postcode" name="Postcode"><br>
-					Plaats: <input type="text" id="plaats" name="plaats"><br>
-					Telefoonnummer: <input type="text" id="telefoonnummer" name="Telefoonnummer"><br>
-					E-mail: <input type="email" id="mail" name="E-mail"><br>
+					<label  for="name" >Naam:</label> <input type="text" id="name"> 
+					<label  for="company" >Bedrijf:</label> <input type="text" id="company" name="company"> 
+					<label  for="streetname" >Straatnaam:</label> <input type="text" id="streetname" name="streetname"> 
+					<label  for="housenumber" >Huisnummer:</label> <input type="text" id="housenumber" name="housenumber"> 
+					<label  for="postal" >Postcode:</label> <input type="text" pattern="[1-9][0-9]{3}\s?[a-zA-Z]{2}" id="postal" name="postal"> 
+				 	<label  for="city" >Plaats:</label> <input type="text" id="city" name="city"> 
+					<label  for="telephone" >Telefoonnummer:</label> <input type="tel" id="telephone" name="telephone"> 
+					<label  for="email" >Email:</label> <input type="email" id="email" name="E-mail"> 
 			</fieldset>
 			<fieldset>
 				<legend>Stage</legend>
-					Geschikt voor:<br>
-					 <input type="radio" name="jaar" value="Tweedejaars student">Tweedejaars student<br>
-					 <input type="radio" name="jaar" value="Afstudeer student">Afstudeer student<br>
-					 <input type="radio" name="jaar" value="Onbekend">Onbekend<br><br>
+					Geschikt voor: 
+					 <input type="radio" name="year" value="Tweedejaars student">Tweedejaars student 
+					 <input type="radio" name="year" value="Afstudeer student">Afstudeer student 
+					 <input type="radio" name="year" value="Onbekend">Onbekend  
 					De stage duurt
-					 <input type="radio" name="lengte" value="10 weken">10 weken
-					 <input type="radio" name="lengte" value="20 weken">20 weken<br>
-					Begindatum: <input type="month" id="begindatum" name="begindatum"><br><br>
-					Beschrijving stageweerkzaamheden: <input type="text" id="beschrijving" name="beschrijving"><br><br>
+					 <input type="radio" name="length" value="10 weken">10 weken
+					 <input type="radio" name="length" value="20 weken">20 weken 
+					<label  for="email" >Begindatum:</label> <input type="month" id="startdate" name="startdate">  
+					<label  for="email" >Beschrijving stagewerkzaamheden:</label> <input type="text" id="description" name="description">  
 			</fieldset>
 			<fieldset>
 				<legend>Stagebedrijf</legend>
-					Bedrijfsnaam: <input type="text" id="bedrijfsnaam" name="bedrijfsnaam"><br>
-					Straatnaam: <input type="text" id="straat" name="straatnaam"><br>
-					Nummer: <input type="text" id="huisnummer" name="Nummer"><br>
-					Postcode: <input type="text" id="postcode" name="Postcode"><br>
-					Plaats: <input type="text" id="plaats" name="plaats"><br>
-					Sector: <input type="text" id="sector" name="sector"><br>
-					Core business: <input type="text" id="core" name="core"><br>
+					<label  for="companyname" >Bedrijfsnaam:</label> <input type="text" id="companyname" name="companyname"> 
+					<label  for="streetname" >Straatnaam:</label> <input type="text" id="streetinternship" name="streetinternship"> 
+					<label  for="numberintern" >Nummer:</label> <input type="text" id="numberintern" name="numberintern"> 
+					<label  for="postal" >Postcode:</label> <input type="text" pattern="[1-9][0-9]{3}\s?[a-zA-Z]{2}" id="postalinternship" name="postalinternship"> 
+					<label  for="city" >Plaats:</label> <input type="text" id="cityinternship" name="cityinternship"> 
+					<label  for="sector" >Sector:</label> <input type="text" id="sector" name="sector"> 
+					<label  for="core" >Core business:</label> <input type="text" id="core" name="core"> 
 			</fieldset>
 			<input type="submit" value="Submit">
 		</form>
